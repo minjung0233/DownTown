@@ -1608,6 +1608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab0a12f2dfcc42429b049804c2d1799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time_text: {fileID: 1387946471}
+  time_rate: 20
+  playerState: 1
 --- !u!4 &1899915611
 Transform:
   m_ObjectHideFlags: 0
