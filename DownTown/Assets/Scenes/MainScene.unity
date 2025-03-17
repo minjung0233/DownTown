@@ -953,7 +953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -564.5444, y: 370.24}
+  m_AnchoredPosition: {x: -533, y: 365}
   m_SizeDelta: {x: 252.3905, y: 235.35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037558430
@@ -1028,8 +1028,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -880, y: 313.71}
-  m_SizeDelta: {x: 378.5188, y: 122.2933}
+  m_AnchoredPosition: {x: -883.83563, y: 308.47}
+  m_SizeDelta: {x: 449.27, y: 122.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1387946471
 MonoBehaviour:
@@ -1608,9 +1608,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ab0a12f2dfcc42429b049804c2d1799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time_text: {fileID: 1387946471}
   time_rate: 20
-  playerState: 1
+  playerState: 0
+  time_text: {fileID: 1387946471}
+  date_text: {fileID: 2084105297}
+  icon: {fileID: 1037558430}
+  serenityIcon: {fileID: 0}
+  cloudyIcon: {fileID: 0}
+  rainIcon: {fileID: 0}
+  lightningIcon: {fileID: 0}
 --- !u!4 &1899915611
 Transform:
   m_ObjectHideFlags: 0
@@ -1660,8 +1666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -880, y: 436}
-  m_SizeDelta: {x: 378.5188, y: 122.2933}
+  m_AnchoredPosition: {x: -883.8256, y: 426.15002}
+  m_SizeDelta: {x: 449.26, y: 113.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084105297
 MonoBehaviour:
